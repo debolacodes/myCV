@@ -1,0 +1,83 @@
+\documentclass[a4paper,10pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+% Formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+\titleformat{\subsection}[runin]{\bfseries}{}{0em}{}[.]
+
+% Custom commands for formatting
+\newcommand{\cvsection}[1]{\section*{\scshape{#1}}}
+\newcommand{\cvitem}[2]{\textbf{#1:} #2\\}
+
+% Begin Document
+\begin{document}
+
+% Title
+\begin{center}
+    {\LARGE \textbf{Adebola Oyenuga}}\\[0.5em]
+    \href{mailto:debolacodes@gmail.com}{debolacodes@gmail.com} | +234 7066315488 | Lagos, Nigeria\\
+    \href{https://linkedin.com/in/adebola.oyenuga}{https://linkedin.com/in/adebola.oyenuga} | \href{https://github.com/debolacodes}{https://github.com/debolacodes}
+\end{center}
+
+% Personal Information
+\cvsection{Personal Information}
+\cvitem{Nationality}{Nigerian}
+\cvitem{Languages}{English(), Yoruba (Native, First Language)}
+
+% Education
+\cvsection{Education}
+\cvitem{2016--2017}{MSc. Systems Engineering (AI and Robotics), University of Lagos, Lagos, Nigeria}
+\cvitem{2008--2012}{BSc. Computer Science(Technology), Babcock University, Ilisan Remo}
+
+
+% Work Experience
+\cvsection{Work Experience}
+\textbf{Senior Frontend Engineer, Izifin Technologies (2022--Present)}\\
+\begin{itemize}[leftmargin=*]
+    \item Developed Buy Now Pay Later (BNPL) applications using ReactJS and Redux
+(State Management), Tailwind (CSS), ensuring transparent loan management.
+    \item Developed an NPM package for integrating Face and ID verification.
+Created User Interfaces for BNPL applications using Figma.
+	\item Maintained consistent graphic standards across product interfaces for a
+polished user experience.
+\end{itemize}
+
+
+\textbf{}\\
+\textbf{Analog Teams (analogteams.com), (2021--2022)}\\
+\begin{itemize}[leftmargin=*]
+    \item Led my software development team in technical planning and development of applications such as ETL, Instant Messaging, and E-commerce solutions.
+    \item Managed technical communications with the management team and clients.
+    \item Developed a social media app (Native) using Flutter for mobile and ReactJS
+for the web app.
+\end{itemize}
+
+% Skills
+\cvsection{Skills}
+\cvitem{Programming}{Javascript, HTML/CSS, Python(Django), LaTeX}
+\cvitem{Tools}{Git, Docker, Render, NPM}
+\cvitem{Soft Skills}{Leadership, Communication, Teamwork, Problem-Solving}
+
+% Projects
+\cvsection{Projects}
+\cvitem{Blueskills, Service Hailing App (on Playstore and web) - theblueskills.com}
+\cvitem{Datamarket, Loan Application and Customer Intelligence (on Playstore and web). - Datamarket.co}
+\cvitem{iziBNPL, BNPL Loan Application and Collection - iziBNPL.com}
+\cvitem{Farmz2u, Farming Management Platform - Farmz2u.com}
+
+% Hobbies
+\cvsection{Hobbies}
+\cvitem{Music}{Playing Guitar, Writing Music.}
+\cvitem{Volunteering}{Volunteering for worthy causes in my community.}
+
+% References
+\cvsection{References}
+Available upon request.
+
+\end{document}
